@@ -1,0 +1,269 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+<head>
+  
+  <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+  <meta charset="utf-8-sig" />
+
+  <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Importando Bootstrap CSS and Javascript-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  <!-- Importando o arquivo de estilos CSS -->
+  <link rel="stylesheet" href="../../../css/style.css" />
+
+  <!-- Título do projeto em HTML-->
+  <title>NotSoFake - O que são as "Fake News"?</title>
+  
+</head>
+
+<body>
+  
+  <!-- Estruturando o Cabeçalho -->
+  <header>
+
+    <!-- Corpo da Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+      
+      <!-- Logo da Aplicação Web -->
+      <a class="navbar-brand" href="../../logged_out/out_Home.html" id="logo">Not so Fake</a>
+
+      <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+        <span class="navbar-toggler-icon"></span>
+      
+      </button>
+
+      <!-- Itens da Navbar -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav ms-auto">
+          
+          <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_Home.html">Home</a>
+          
+          </li>
+
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_FeedRss.html">Feed de Notícias</a>
+          
+          </li>
+
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link" href="../../logged_out/out_MotorDeBusca.html">Pesquisa</a>
+          
+          </li>
+
+          <li class="nav-item" id="nav-header-item">
+            
+            <a class="nav-link active" id="nav-item-active" href="../../logged_out/out_BlogFakeNews.html">O que são "FakeNews"?</a>
+          
+          </li>
+
+          <li class="nav-item" id="login">
+
+            <a class="nav-link" href="../logged_out/out_Login.html">Login</a>
+
+          </li>
+        
+          <li class="nav-item" id="cadastro">
+
+            <a class="nav-link" href="../logged_out/out_Cadastro.html">
+                
+              <img src="..\..\..\img\IconeCadastro.png"  width="20" height="20">
+            
+            </a>
+
+          </li>
+        
+        </ul>
+      
+      </div>
+    
+    </nav>
+  
+  </header>
+  
+  <div class="blog-noticia">
+    
+    <div>
+      
+      <h1 id="titulo-blog-noticia">O que são as Fake News?</h1>
+      
+      <br />
+      
+      <img class="img-fluid rounded" src="../../../img/fake-news.jpg" />
+      
+      <p class="texto-blog-noticia">
+        
+        <br /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Fake news é um termo em inglês que
+        significa, literalmente, “notícia falsa”. Notícias falsas são uma
+        invenção, uma mentira ou uma distorção de um determinado fato que
+        assume a aparência de uma notícia real com o objetivo de enganar as
+        pessoas.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Aliás, é importante ter em mente que as
+        fake news parecem verdadeiras, embora sejam falsas. Notícias falsas
+        costumam ser cuidadosamente elaboradas, a fim de que tenham impacto e
+        convençam o público-alvo. Por isso, pode ser difícil identificá-las –
+        e é justamente essa dificuldade que leva à sua divulgação massiva.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Assim como as informações verdadeiras
+        têm muitas faces, as notícias falsas também podem vir em muitas
+        formas, de diversas fontes e sobre vários assuntos diferentes – de
+        política até doenças e religiões.
+      
+      </p>
+      
+      <br />
+      
+      <h2 id="subtitulo-blog">O surgimento das fake news</h2>
+      
+      <p class="texto-blog-noticia">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Tradicionalmente, recebemos nossas
+        notícias de fontes confiáveis, jornalistas e veículos de mídia que são
+        obrigados a seguir rígidos códigos de prática. No entanto, a internet
+        possibilitou uma forma totalmente nova de publicar, compartilhar e
+        receber informações e notícias com muito pouca regulamentação ou
+        padrões editoriais. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Com essa nova ferramenta, circulam nas
+        redes diversas informações virais cuja credibilidade é baixa, mas que
+        alcançam milhares de pessoas todos os dias. A sobrecarga de
+        informações e uma falta geral de entendimento sobre como a internet
+        funciona pelas pessoas também contribuíram para um aumento no número
+        de notícias falsas ou histórias de boatos. As redes sociais podem
+        desempenhar um grande papel no aumento do alcance desse tipo de
+        história. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Embora tenham ganhado mais fôlego a
+        partir de 2010, sobretudo com a popularização da internet, das mídias
+        sociais e dos aplicativos para celulares de conversação em tempo real,
+        como o WhatsApp e o Telegram, a propagação de fake news não é
+        novidade. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Em 1979, um memorando interno da empresa
+        de tabaco Brown & Williamson, redigido dez anos antes, veio a público.
+        O documento, chamado “Smoking and health proposal” (“Tabagismo e
+        proposta de saúde”), reunia uma série de estratégias empregadas pela
+        indústria do cigarro para enfrentar os movimentos antitabagistas que
+        começavam a surgir naquele período.<br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Ao analisar o memorando, Proctor
+        descobriu que a indústria do tabaco promovia propaganda enganosa e
+        informações mentirosas sobre seu produto, além de gastar bilhões para
+        manter dados sobre os danos causados pelo fumo em segredo. Foi então
+        que ele teve um insight e resolveu iniciar uma pesquisa sobre o
+        assunto. <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        A partir dessa pesquisa, Proctor criou o
+        termo agnotologia, que é o estudo da propagação intencional da
+        ignorância para fins políticos e comerciais. As informações falsas
+        costumam ser elaboradas e divulgadas por pessoas e grupos poderosos,
+        que se beneficiam da ignorância social por meio da manipulação dos
+        fatos.
+      
+      </p>
+      
+      <br />
+      
+      <h2 id="subtitulo-blog">Tipos de fake news</h2>
+      
+      <p class="texto-blog-noticia">
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Existem opiniões divergentes quando se
+        trata de identificar tipos de informações falsas. No entanto, quando
+        se trata de avaliar o conteúdo on-line, há vários tipos de notícias
+        falsas ou enganosas que precisamos estar cientes. Esses incluem:<br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        1. Clickbait Essas são histórias que são
+        fabricadas deliberadamente para ganhar mais visitantes do site e
+        aumentar a receita de publicidade para sites. As histórias de
+        clickbait usam manchetes sensacionalistas para chamar a atenção e
+        direcionar cliques para o site da editora, normalmente em detrimento
+        da verdade ou precisão.
+        <br />
+        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        2. Propaganda Histórias criadas para
+        enganar deliberadamente o público, promover um ponto de vista
+        tendencioso ou uma causa ou agenda política específica.<br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        3. Sátira ou paródia Existem sites e
+        perfis de mídias sociais que publicam notícias falsas para
+        entretenimento e paródia. No entanto, o mau uso e a falta de
+        discernimento geral a respeito do funcionamento da internet podem
+        espalhar esse tipo de notícia como se fosse real.<br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        4. Jornalismo descuidado Às vezes,
+        repórteres ou jornalistas podem publicar uma história com informações
+        não confiáveis ou sem verificar todos os fatos que podem enganar o
+        público. Por exemplo, durante as eleições norte-americanas de 2016, a
+        marca da moda Urban Outfitters publicou um Guia para o Dia da Eleição
+        com informações incorretas, que dizia aos eleitores que eles
+        precisavam de um “cartão de eleitor” para votar. Na realidade, esse
+        cartão não é exigido por nenhum estado dos Estados Unidos. <br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        5. Títulos enganosos Histórias que não
+        são completamente falsas podem ser distorcidas usando manchetes
+        enganosas ou sensacionalistas. Esses tipos de notícias podem se
+        espalhar rapidamente em sites de mídia social, onde apenas as
+        manchetes e pequenos trechos do artigo completo são exibidos nos feeds
+        de notícias do público. <br /><br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        6. Notícias tendenciosas/inclinadas
+        Muitas pessoas são atraídas por notícias ou histórias que confirmam
+        suas próprias crenças ou preconceitos, e notícias falsas podem se
+        aproveitar desses preconceitos. Os feeds de notícias de mídia social
+        utilizam algoritmos para exibir notícias e artigos que se alinham com
+        nossos valores, crenças e ideologias, com base em nossas pesquisas
+        personalizadas.
+
+      </p>
+
+    </div>
+
+  </div>
+
+  <div class="rodape-blog">
+
+    <footer>
+
+      <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+      <ol>
+
+        <li><a href="https://guides.lib.umich.edu/fakenews" target="_blank">M Library</li>
+        <li><a href="https://www.eurekalert.org/news-releases/926824" target="_blank">Eurekalert</li>
+        <li><a href="https://www.webwise.ie/teachers/what-is-fake-news/" target="_blank">Webwise</li>
+        <li><a href="https://www.cqemi.org/fr/" target="_blank">30 Seconds </li>
+        <li><a href="https://www.bbc.com/news/av/technology-46149888" target="_blank">BBC</li>
+      
+      </ol>
+    
+    </footer>
+  
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="..\..\..\css\style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+  <!-- Estruturando o Cabeçalho -->
+  <header>
+
+    <!-- Corpo da Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+      
+        <!-- Logo da Aplicação Web -->
+        <a class="navbar-brand" href="../../logged_out/out_Home.html" id="logo">Not so Fake</a>
+
+        <!-- Lista Suspensa em caso de redefoutição da tela do Navegador-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        
+          <span class="navbar-toggler-icon"></span>
+      
+        </button>
+
+        <!-- Itens da Navbar -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+          <ul class="navbar-nav ms-auto">
+          
+            <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na págouta qual se está da aplicação -->
+            <li class="nav-item" id="nav-header-item">
+            
+              <a class="nav-link" href="../../logged_out/out_Home.html">Home</a>
+          
+            </li>
+
+            <li class="nav-item" id="nav-header-item">
+            
+              <a class="nav-link" href="../../logged_out/out_FeedRss.html">Feed de Notícias</a>
+          
+            </li>
+
+            <li class="nav-item" id="nav-header-item">
+            
+              <a class="nav-link" href="../../logged_out/out_MotorDeBusca.html">Pesquisa</a>
+          
+            </li>
+
+            <li class="nav-item" id="nav-header-item">
+            
+              <a class="nav-link active" id="nav-item-active" href="../../logged_out/out_BlogFakeNews.html">O que são "FakeNews"?</a>
+          
+            </li>
+
+            <li class="nav-item" id="login">
+
+              <a class="nav-link" href="../logged_out/out_Logout.html">Login</a>
+
+            </li>
+        
+            <li class="nav-item" id="cadastro">
+
+              <a class="nav-link" href="../logged_out/out_Cadastro.html">
+                
+                <img src="..\..\..\img\IconeCadastro.png"  width="20" height="20">
+            
+              </a>
+
+            </li>
+        
+          </ul>
+      
+        </div>
+    
+      </nav>
+  
+    </header>
+
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">Consequências das Fake News</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/consequencias.jpg">
+
+            <p class="texto-blog-noticia">
+
+                </br> 
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Com a popularização e acesso facilitado aos meios de comunicação, o
+                conceito de fake news ganhou forma. Empregado às notícias fraudulentas que circulam nas mídias sociais e
+                na Internet, o conceito é aplicado principalmente aos portais de comunicação online, como redes sociais,
+                sites e blogs, que são plataformas de fácil acesso e, portanto, mais propícias à propagação de notícias
+                falsas, visto que qualquer cidadão tem autonomia para publicar.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Em 2018, o Instituto Mundial de Pesquisa (IPSO) divulgou um estudo
+                intitulado: “Fake news, filter bubbles, post-truth and trust (Notícias falsas, filtro de bolhas,
+                pós-verdade e verdade)”, que revela dados importantes. De acordo com o levantamento, 62% dos
+                entrevistados do Brasil admitiram ter acreditado em notícias falsas, valor acima da média mundial que é
+                de 48%. Um outro estudo, consultado em junho de 2020, sobre o Relatório de Notícias Digitais do
+                Instituto Reuters (Reuters Institute Digital News Report), mostrou que o WhatsApp é uma das principais
+                redes sociais de discussão e troca de notícias no país, perdendo apenas para o Facebook. O levantamento
+                apontou que 48% dos brasileiros que participaram da pesquisa usam o aplicativo como fonte de notícias,
+                número bem superior comparado ao índice de países como: Austrália (8%), Reino Unido (7%), Canadá (6%) e
+                Estados Unidos (4%).<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                As fake news crescem conforme o número de compartilhamentos, então é
+                necessário repassar somente informações verídicas e sempre se questionar caso veja uma manchete
+                duvidosa. Notícias falsas espalham-se rapidamente e apelam para o emocional do leitor/espectador,
+                chamando atenção com títulos sensacionalistas e causando o consumo do material “noticioso” sem a
+                confirmação da veracidade de seu conteúdo.
+                
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Consequências das fake news</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O compartilhamento de informações fraudulentas tem grande consequências,
+                apesar de parecer inofensivo. No Brasil, em 2014, a disseminação de uma fake news provou uma verdadeira
+                tragédia. Na ocasião, uma mulher foi linchada até a morte por moradores da cidade de Guarujá, em São
+                Paulo. Fabiane Maria de Jesus tinha 33 anos, era dona de casa, casada, mãe de duas crianças, e foi
+                confundida com uma suposta sequestradora de crianças, cujo retrato falado, que havia sido feito dois
+                anos antes, estava circulando nas redes sociais.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Outro caso famoso de disseminação de fake news é o do movimento anti
+                vacinação. Indivíduos contrários ao uso de vacinas espalharam conteúdos falsos, alegando que as
+                composições químicas das vacinas eram prejudiciais à população. As informações afirmavam que os
+                medicamentos contra febre amarela, poliomielite, sarampo, microcefalia e gripe poderiam ser um risco
+                para a saúde, provocando as respectivas doenças nas pessoas, quando vacinadas.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Uma das consequências da propagação dessas falsas informações foi o
+                crescimento alarmante no número de casos de sarampo no Brasil, em 2018, o que acarretou numa campanha
+                intensa realizada pelo Ministério da Saúde. A fim de combater as fake newsreferentes ao assunto, o órgão
+                lançou propagandas e informativos de combate às falsas informações sobre vacinas em diferentes veículos
+                de comunicação e nas redes sociais. Outro resultado da disseminação de tais notícias foi uma população
+                desconfiada do sistema público de saúde e muitos outros órgãos que atendiam às campanhas de vacinação,
+                além de uma considerável diminuição no número de pessoas imunizadas, algo extremamente perigoso em
+                épocas de epidemias e surtos.
+
+            </p>
+            
+            <br />
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+                
+                <li><a href="https://www.tjpr.jus.br/noticias-2-vice/-/asset_publisher/sTrhoYRKnlQe/content/o-perigo-das-fake-news/14797?inheritRedirect=false" target="_blank">Tribunal de Justiça</li>
+            </ol>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="pt-BR" xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:noticias.r7.com,2005:/feed</id>
+  <link rel="alternate" type="text/html" href="https://noticias.r7.com"/>
+  <link rel="self" type="application/atom+xml" href="https://noticias.r7.com/feed.xml"/>
+  <title>R7 - Notícias</title>
+  <updated>2022-12-01T17:35:55Z</updated>
+  <image>
+    <url>https://img.r7.com/images/logo-r7-12112019115911302</url>
+  </image>
+  <entry>
+    <id>r7:article:6388e2b24b4955a2960005ac</id>
+    <published>2022-12-01T14:35:55-03:00</published>
+    <updated>2022-12-01T14:35:55-03:00</updated>
+    <link rel="alternate" type="text/html" href="http://noticias.r7.com/rio-de-janeiro/jardim-botanico-oferece-acesso-gratuito-a-trilhas-tematicas-no-rio-01122022"/>
+    <url>http://noticias.r7.com/rio-de-janeiro/jardim-botanico-oferece-acesso-gratuito-a-trilhas-tematicas-no-rio-01122022</url>
+    <title type="html">Jardim Botânico oferece acesso gratuito à trilhas temáticas no Rio </title>
+    <description type="html">
+      <![CDATA[Passeios são agendados e calendário começa nesta sexta-feira (2); mais de 50 pontos turísticos da instituição estão no trajeto]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/r7rio-112022-agenciabrasil-01122022142744577</mediaurl>
+    <mediasource>Rio de Janeiro</mediasource>
+    <author>
+      <name>Da Agência Brasil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e4c243527f01770003b8</id>
+    <published>2022-12-01T14:30:00-03:00</published>
+    <updated>2022-12-01T14:30:00-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://canalcienciascriminais.com.br/policia-civil-licitatorios-corrupcao/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=policia-civil-licitatorios-corrupcao"/>
+    <url>https://canalcienciascriminais.com.br/policia-civil-licitatorios-corrupcao/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=policia-civil-licitatorios-corrupcao</url>
+    <title type="html">Polícia Civil apura crimes licitatórios e corrupção na compra de alimentos para presídios do RS</title>
+    <description type="html">
+      <![CDATA[]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/corrupcao-01122022143043674</mediaurl>
+    <mediasource>Canal Ciências Criminais</mediasource>
+    <author>
+      <name>Canal Ciências Criminais</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e44c4b4955de1f000270</id>
+    <published>2022-12-01T14:27:43-03:00</published>
+    <updated>2022-12-01T14:27:43-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://editalconcursosbrasil.com.br/noticias/2022/12/saque-de-r-1-000-para-trabalhadores-com-carteira-assinada-continua-corra/"/>
+    <url>https://editalconcursosbrasil.com.br/noticias/2022/12/saque-de-r-1-000-para-trabalhadores-com-carteira-assinada-continua-corra/</url>
+    <title type="html">Saque de R$ 1.000 para trabalhadores com carteira assinada continua; corra!</title>
+    <description type="html">
+      <![CDATA[<p>Prazo para que brasileiros realizem o resgate do benefício termina em 15 de dezembro. Veja quem tem direito.</p><p>O post Saque de R$ 1.000 para trabalhadores com carteira assinada continua; corra! apareceu primeiro em Edital Concursos Brasil.</p>]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/saque-fgts-1-01122022142844718</mediaurl>
+    <mediasource>Edital Concursos Brasil</mediasource>
+    <author>
+      <name>Edital Concursos Brasil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e44e43527faf1c0006e2</id>
+    <published>2022-12-01T14:25:38-03:00</published>
+    <updated>2022-12-01T14:25:38-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://ndmais.com.br/tempo/imagens-aereas-mostram-devastacao-na-grande-florianopolis-em-meio-a-novo-alerta-de-chuva/"/>
+    <url>https://ndmais.com.br/tempo/imagens-aereas-mostram-devastacao-na-grande-florianopolis-em-meio-a-novo-alerta-de-chuva/</url>
+    <title type="html">Imagens aéreas mostram devastação na Grande Florianópolis em meio a novo alerta de chuva</title>
+    <description type="html">
+      <![CDATA[<p>Região recebeu uma média de 122 mm de precipitação ao longo de 12 horas, até por volta das 6h30 desta quinta-feira (1º); municípios decretaram situação de emergência</p>]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/imagens-aereas-devastacao-800x420-01122022142848498</mediaurl>
+    <mediasource>ND Mais</mediasource>
+    <author>
+      <name>ND Mais</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e39843527faf1c000369</id>
+    <published>2022-12-01T14:24:57-03:00</published>
+    <updated>2022-12-01T14:24:57-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://jornaldebrasilia.com.br/noticias/marrocos-vence-canada-fica-em-1o-no-grupo-f-e-vai-as-oitavas-apos-36-anos/"/>
+    <url>https://jornaldebrasilia.com.br/noticias/marrocos-vence-canada-fica-em-1o-no-grupo-f-e-vai-as-oitavas-apos-36-anos/</url>
+    <title type="html">Marrocos vence Canadá, fica em 1º no Grupo F e vai às oitavas após 36 anos</title>
+    <description type="html">
+      <![CDATA[<p></p><p></p><p>Stefanie RamosSão Paulo, SP </p><p></p><p></p><p>Marrocos venceu o Canadá por 2 a 1 na tarde desta quinta-feira (1º), no estádio Al Thumama, em jogo válido pela terceira rodada da fase de grupos da Copa do Mundo do Qatar.</p><p></p><p></p><p>O placar do confronto foi construído com gols de Ziyech e En-Nesyri, para os marroquinos, e Aguerd (contra), para os canadenses. Dessa forma, os africanos conseguiram se classificar para a próxima fase do Mundial depois de 36 anos.</p><p></p><p></p><p>Com o resultado, os comandados de Walid Regragui garantiram a primeira colocação do Grupo H, com sete pontos somados. Agora, aguardam as partidas do Grupo E - que acontecem hoje às 16h (de Brasília) - para conhecer seu adversário no mata-mata.Do outro lado, os canadenses, que já estavam eliminados antes mesmo desta partida, encerram sua participação neste Mundial da Fifa sem somar pontos.</p><p></p><p></p><p>Nas oitavas de final, Marrocos vai jogar contra a seleção que ficar na segunda colocação da chave E na terça-feira (6), às 12h (de Brasília).CANADÁBorjan; Johnston, Steven Vitória e Miller; Adekugbe (Koné), Osorio (Laryea), Kaye (Hutchinson) e Davies; Buchanan, Hoilett (Wotherspoon) e Larin (Jonathan David). T.: John Herdman</p><p></p><p></p><p>MARROCOSBono; Hakimi (Jabrane), Aguerd, Saïss e Mazraoui; Amrabat, Ounahi (El Yamiq) e Sabiri (Amallah); Ziyech (Hamdallah), Boufal (Aboukhlal) e En-Nesyri. T.: Walid Regragui</p><p></p><p></p><p>Estádio: Al Thumama, em Doha (Qatar)Horário: Às 12h (de Brasília) desta quinta-feira (1º)Árbitro: Raphael Claus (Brasil)VAR: Julio Bascuñán (Chile)Público: 43.102Cartões amarelos: Hoilett (Canadá), Osorio (Canadá), Adekugbe (Canadá), Steven Vitória (Canadá)Gols: Ziyech (4' 1º T - MAR), En-Nesyri (23' 1ºT - MAR), Aguerd (40' 1º T - CAN (contra))</p><p></p><p>O post Marrocos vence Canadá, fica em 1º no Grupo F e vai às oitavas após 36 anos apareceu primeiro em Jornal de Brasília.</p>]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/1canadaxmarrocoscopadomundopatricktfallon-20413400-01122022142545564</mediaurl>
+    <mediasource>Jornal de Brasília</mediasource>
+    <author>
+      <name>Jornal de Brasília</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e40c4b495593c2000150</id>
+    <published>2022-12-01T14:22:33-03:00</published>
+    <updated>2022-12-01T14:22:33-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://editalconcursosbrasil.com.br/noticias/2022/12/mulher-ganha-r-32-milhoes-na-loteria-e-o-que-ela-faz-em-seguida-e-inacreditavel/"/>
+    <url>https://editalconcursosbrasil.com.br/noticias/2022/12/mulher-ganha-r-32-milhoes-na-loteria-e-o-que-ela-faz-em-seguida-e-inacreditavel/</url>
+    <title type="html">Mulher ganha R$ 32 milhões na loteria e o que ela faz em seguida é INACREDITÁVEL</title>
+    <description type="html">
+      <![CDATA[<p>O que você faria se descobrisse que tem uma fortuna te esperando? Esta mulher tomou uma decisão impensável que poucos teriam coragem. Veja!</p><p>O post Mulher ganha R$ 32 milhões na loteria e o que ela faz em seguida é INACREDITÁVEL apareceu primeiro em Edital Concursos Brasil.</p>]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/loteria-01122022142744268</mediaurl>
+    <mediasource>Edital Concursos Brasil</mediasource>
+    <author>
+      <name>Edital Concursos Brasil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e2e44b4955a2960005c8</id>
+    <published>2022-12-01T14:22:07-03:00</published>
+    <updated>2022-12-01T14:22:07-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://gcmais.com.br/entretenimento/2022/12/01/anitta-da-entrada-em-hospital-de-sao-paulo-para-realizacao-de-exames/"/>
+    <url>https://gcmais.com.br/entretenimento/2022/12/01/anitta-da-entrada-em-hospital-de-sao-paulo-para-realizacao-de-exames/</url>
+    <title type="html">Anitta dá entrada em hospital de São Paulo para realização de exames</title>
+    <description type="html">
+      <![CDATA[<p>A cantora Anitta deu entrada no Hospital Albert Einstein, em São Paulo, nesta quinta-feira (1º). A informação foi confirmada pela assessoria de imprensa da artista ao portal R7. “Informamos que Anitta está bem. A cantora se consultou hoje (01/12) com seus médicos em um hospital da capital paulista e até o final da tarde terá […]</p>]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl/>
+    <mediasource>Gc Mais</mediasource>
+    <author>
+      <name>Gc Mais</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e39819d224d5340012f1</id>
+    <published>2022-12-01T14:20:00-03:00</published>
+    <updated>2022-12-01T14:20:00-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.gazetadigital.com.br/colunas-e-opiniao/colunas-e-artigos/fortalecer-a-cultura-edifica-o-negcio/715144"/>
+    <url>https://www.gazetadigital.com.br/colunas-e-opiniao/colunas-e-artigos/fortalecer-a-cultura-edifica-o-negcio/715144</url>
+    <title type="html">Fortalecer a cultura edifica o negócio</title>
+    <description type="html">
+      <![CDATA[]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/45001b1032b3361405b0e64f5dc42900-01122022142545828</mediaurl>
+    <mediasource>Gazeta Digital</mediasource>
+    <author>
+      <name>Gazeta Digital</name>
+    </author>
+  </entry>
+  <entry>
+    <id>r7:article:6388e398ca90843606000abc</id>
+    <published>2022-12-01T14:20:00-03:00</published>
+    <updated>2022-12-01T14:20:00-03:00</updated>
+    <link rel="alternate" type="text/html" href="https://www.gazetadigital.com.br/colunas-e-opiniao/colunas-e-artigos/cuidados-com-a-audio-e-a-voz-durante-a-copa/715141"/>
+    <url>https://www.gazetadigital.com.br/colunas-e-opiniao/colunas-e-artigos/cuidados-com-a-audio-e-a-voz-durante-a-copa/715141</url>
+    <title type="html">Cuidados com a audição e a voz durante a Copa</title>
+    <description type="html">
+      <![CDATA[]]>
+    </description>
+    <content type="html">
+      <![CDATA[]]>
+    </content>
+    <mediaurl>https://img.r7.com/images/7b70489d9d573bcf0f8e4fc28498fcc2-01122022142546096</mediaurl>
+    <mediasource>Gazeta Digital</mediasource>
+    <author>
+      <name>Gazeta Digital</name>
+    </author>
+  </entry>
+</feed>

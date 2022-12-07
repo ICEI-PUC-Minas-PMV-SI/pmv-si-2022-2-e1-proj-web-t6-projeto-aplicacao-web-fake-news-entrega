@@ -1,0 +1,305 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="..\..\..\css\style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+    <!-- Estruturando o Cabeçalho -->
+    <header>
+
+        <!-- Corpo da Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+
+            <!-- Logo da Aplicação Web -->
+            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+
+            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
+
+                    </li>
+
+                    <li class="nav-item" id="usuario">
+
+                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">Faça sua parte, e ajude a combater!</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/faca-sua-parte.jpeg">
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Fake news se espalham rápido e, na internet, todo mundo está sujeito a ser
+                enganado por elas. Por isso, o g1 procurou especialistas para ajudar a identificar se uma mensagem é
+                verdadeira ou não e dar dicas de como combater as mensagens falsas. Entre as principais dicas dos
+                especialistas para ajudar a combater fake news estão as seguintes:
+
+            </p>
+            
+            <br />
+
+            <ul id="lista-blog">
+
+                <li>Verificar se as mensagens que você recebe nas redes sociais são verdadeiras</li>
+                <li>Não compartilhar os conteúdos caso você tenha dúvida se eles são verdadeiros</li>
+                <li>Encaminhar a mensagem falsa para grupos de verificação de fatos, como o Fato ou Fake</li>
+                <li>Denunciar as mensagens falsas em sites e plataformas de redes sociais</li>
+
+            </ul>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Verifique se as mensagens são verdadeiras</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Segundo os especialistas, antes de repassar as mensagens que você recebe
+                nas redes sociais para outras pessoas, é importante verificar se elas são verdadeiras. Para isso, alguns
+                passos simples podem ser feitos, como ficar atento às informações, fontes e origens do conteúdo.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "As pessoas precisam começar a identificar melhor se a notícia não parece
+                boa demais para ser verdadeira ou absurda demais para ser verdadeira. Outro detalhe importante é
+                verificar a fonte. Esse site é conhecido? É possível identificar e responsabilizar quem escreveu o
+                conteúdo? O site ou o jornal de fato publicou aquilo?", diz Felipe Nunes dos Santos, professor da UFMG.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Quando as pessoas têm contato com mensagens que as deixam com raiva ou
+                indignadas, elas perdem temporariamente o juízo de valor. Neste momento, a tendência é que elas
+                compartilhem estes conteúdos sem pensar duas vezes. Por isso, os criadores de fake news tendem a ser
+                apelativas e exageradas para fazer com que as mensagens falsas se espalhem mais.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Além de usar o exagero, as mensagens também costumam não ter informações
+                específicas, como datas e locais. Outros truques utilizados pelos criadores de fake news são: copiar a
+                aparência de sites e jornais tradicionais e manipular imagens e vídeos.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Além de ficar atento a essas características, o professor Santos ainda
+                destaca que uma forma prática e fácil de verificar se as mensagens são verdadeiras é consultar os sites
+                de verificação de fatos, como o Fato ou Fake.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Temos no Brasil grandes e importantes agências que estão fazendo isso
+                [verificação de fatos], e elas compõem um papel fundamental como fonte confiável de informação para
+                preservar a nossa democracia", diz. Veja outras dicas para não cair em mensagens falsas a seguir:
+                
+                <br />
+
+            <ul id="lista-blog">
+
+                <li>Procurar informações e opiniões contrárias às nossas: “Você vai votar no candidato 1? Legal. Entra
+                    no candidato 2 e vê o que ele está falando também. Tenha contato com informações que são
+                    aparentemente incompatíveis, pois isso vai lhe dar uma opinião mais sensata e equilibrada”, diz o
+                    psicólogo Cristiano Nabuco, do Instituto de Psiquiatria da USP.
+                </li>
+                <li>Reler as informações: “Sempre que eu leio alguma coisa que eu sinto que fiquei muito irritado, que
+                    me deixou indignado, eu falo: 'Opa, estão atuando em cima de mim. Vamos devagar. Vamos ler isso de
+                    novo. Será que isso é verdade? Isso que está escrito é factível? Será que, de fato, esse candidato
+                    ou essa pessoa falaria isso?'"
+                </li>
+                <li>Checar as informações em várias fontes: "Cruzar informações, buscar a origem e ter certeza", diz
+                    Nabuco. "Faça uma leitura lateral. Abra uma aba do lado e pesquise. Será que algum jornal falou
+                    isso?", diz Yurij Castelfranchi, professor da UFMG.
+                </li>
+                <li>Jogar um trecho da mensagem em um buscador: "Veja se aquele trecho já aparece em outras fontes. Eu
+                    sei que a maioria das pessoas que acredita em fake news não confia nos jornalistas, mas a mídia é
+                    diversa. Se ninguém fala não é porque todo mundo esconde, é porque é mentira", diz Castelfranchi.
+                </li>
+                <li>Manter-se informado: Nabuco afirma que estar por dentro dos acontecimentos também ajuda a desconfiar
+                    e a não cair em informações falsas.
+                </li>
+
+            </ul>
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Na dúvida, não compartilhe</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Se você seguiu as dicas do passo anterior e, mesmo assim, ficou em dúvida
+                se a mensagem que recebeu é verdadeira ou não, não compartilhe. Caso você desconfie que o conteúdo é
+                falso apenas pelo título ou pelo link, o ideal é que você nem clique, como afirma a advogada e
+                especialista em direito digital, Gisele Truzzi.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "[É importante] não clicar de imediato nesse tipo de conteúdo, pois tem
+                esse viés de caça-clique. Ao clicar, movidos pela curiosidade, a gente estimula ainda mais esse tipo de
+                material. Então, por mais que a gente fique curioso, ao entender que aquilo é uma manchete de fake news,
+                não clique. O indivíduo do outro lado, que está produzindo a fake news, ganha com esses cliques", diz
+                Truzzi.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Os especialistas apontaram que uma das principais motivações dos criadores
+                de mensagens falsas é ganhar dinheiro. Por conta do funcionamento das redes sociais, eles conseguem
+                renda através dos cliques e do engajamento que as mentiras geram.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Rosental Alves, professor da Universidade do Texas, nos Estados Unidos,
+                concorda e reforça que as consequências do compartilhamento das mensagens mentirosas vão além do ganho
+                financeiro dos criadores de fake news.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "É importante que as pessoas saibam que, quando elas passam uma notícia
+                falsa adiante em um grupo de família, elas podem estar colocando em risco a vida de outras pessoas. Elas
+                têm que colocar o 'desconfiômetro' para funcionar", diz.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Denuncie as mensagens falsas</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Para complementar a dica anterior, a advogada Gisele Truzzi diz ainda que
+                é preciso denunciar as mensagens falsas através das ferramentas disponibilizadas pelas redes sociais e
+                pelos sites.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Veja onde a matéria está hospedada. É um site de notícia? Rede social? É
+                um blog desconhecido? Verifique se tem nesse site ou nessa página algum botão para você reportar o
+                conteúdo como sendo uma fake news", diz Truzzi.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Cobre de quem compartilha mensagens falsas</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O advogado e diretor do InternetLab, Francisco Brito Cruz, considera que o
+                combate à desinformação também é uma questão política. “Os políticos têm que ser cobrados com soluções
+                para os problemas das fake
+                news. E precisa cobrar quando eles compartilham fakes, porque só assim a gente consegue discutir isso
+                além do ponto de vista individual, mas também do ponto de vista da sociedade”, contou Francisco.
+
+            </p>
+
+            <br />
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+            
+                <li><a href="https://g1.globo.com/fato-ou-fake/noticia/2022/04/04/fato-ou-fake-como-combater-as-fake-news.ghtml" target="_blank">G1</li>
+            
+            </ol>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

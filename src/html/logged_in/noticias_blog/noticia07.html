@@ -1,0 +1,226 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="..\..\..\css\style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+    <!-- Estruturando o Cabeçalho -->
+    <header>
+
+        <!-- Corpo da Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+
+            <!-- Logo da Aplicação Web -->
+            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+
+            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
+
+                    </li>
+
+                    <li class="nav-item" id="usuario">
+
+                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">6 dicas para evitar as fake news!</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/5-dicas.jpg">
+
+            <p class="texto-blog-noticia">
+
+                </br>  
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Segundo o psicólogo Cristiano Nabuco, do Instituto de Psiquiatria da
+                Universidade de São Paulo (USP) além de ficar de olho nas características e truques que foram citados
+                acima, os especialistas dão uma série de dicas simples de como evitar cair nas armadilhas das mensagens
+                falsas. Veja abaixo as principais:<br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">1 - Procurar informações e opiniões contrárias às nossas:</h2>
+            
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Você vai votar no candidato 1? Legal. Entra no candidato 2 e vê o que ele
+                está falando também. Tenha contato com informações que são aparentemente incompatíveis, pois isso vai
+                lhe dar uma opinião mais sensata e equilibrada”, diz o psicólogo Cristiano Nabuco, do Instituto de
+                Psiquiatria da USP.<br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">2 - Reler as informações: </h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Sempre que eu leio alguma coisa que eu sinto que fiquei muito irritado,
+                que me deixou indignado, eu falo: 'Opa, estão atuando em cima de mim. Vamos devagar. Vamos ler isso de
+                novo. Será que isso é verdade? Isso que está escrito é factível? Será que, de fato, esse candidato ou
+                essa pessoa falaria isso?'"
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">3 - Checar as informações em várias fontes: </h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Cruzar informações, buscar a origem e ter certeza", diz Nabuco. "Faça uma
+                leitura lateral. Abra uma aba do lado e pesquise. Será que algum jornal falou isso?", diz Yurij
+                Castelfranchi, professor da UFMG.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">4 - Jogar um trecho da mensagem em um buscador: </h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Veja se aquele trecho já aparece em outras fontes. Eu sei que a maioria
+                das pessoas que acredita em fake news não confia nos jornalistas, mas a mídia é diversa. Se ninguém fala
+                não é porque todo mundo esconde, é porque é mentira", diz Castelfranchi.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">5 - Não compartilhar caso tenha dúvida: </h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Na dúvida, não passar adiante, pois você também faz parte desse
+                processo”, diz Nabuco.
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">6 - Manter-se informado: </h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Nabuco afirma que estar por dentro dos acontecimentos também ajuda a
+                desconfiar e a não cair em informações falsas. 
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+
+                <li><a href="https://g1.globo.com/fato-ou-fake/noticia/2022/03/28/fato-ou-fake-como-os-criadores-de-fake-news-tentam-enganar-voce.ghtml" target="_blank">G1</li>
+            
+            </ol>
+        
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

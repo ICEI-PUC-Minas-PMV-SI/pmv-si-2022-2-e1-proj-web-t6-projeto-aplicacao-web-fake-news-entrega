@@ -1,0 +1,273 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+    <!-- Estruturando o Cabeçalho -->
+    <header>
+
+        <!-- Corpo da Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+
+            <!-- Logo da Aplicação Web -->
+            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+
+            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
+
+                    </li>
+
+                    <li class="nav-item" id="usuario">
+
+                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">Como funciona a manipulação?</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/manipulacao.jpg">
+
+            <p class="texto-blog-noticia">
+
+            <br/>
+            
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Frases exageradas, falta de informações específicas, manipulação e edição
+            de imagens... Os criadores de fake news utilizam uma série de truques para fazer com que as pessoas
+            acreditem nas mentiras e as compartilhem.
+
+            </p>
+
+            <br />
+
+            <h2 id="subtitulo-blog">Mensagens apelativas e exageradas</h2>
+
+            <p class="texto-blog-noticia">
+            
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Segundo os especialistas, as mensagens falsas são feitas para chamar a
+                atenção das pessoas. Por isso, é comum que elas tenham teorias da conspiração, informações bombásticas
+                (e improváveis) e muitos emojis e exclamações. <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                No final de 2021, por exemplo, começou a circular uma mensagem que
+                afirmava que o presidente da Petrobras disse em entrevista que a gasolina está cara por causa de
+                indenizações de "880 bilhões" pagas aos Estados Unidos por conta de corrupção.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Além de apelar para exclamações e emojis, o texto usa tom de indignação e
+                informações exageradas e mentirosas para atingir as pessoas - ao falar de 880 bilhões, por exemplo,
+                sendo que a Petrobras na verdade pagou US$ 853,2 milhões de indenização a investidores americanos. Além
+                disso, o texto cita uma frase que supostamente foi dita pelo presidente da estatal -- sendo que isso
+                nunca aconteceu.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Estudos de como as coisas viralizam na internet são enfáticos ao falar
+                que uma desinformação ou qualquer conteúdo que crie comoção ou uma reação emotiva tende a viralizar.
+                Quando essa comoção é de medo, de angústia, de raiva, tende a viralizar com mais sucesso comparada com
+                uma emoção positiva", diz David Nemer, professor da Universidade da Virgínia e pesquisador de Harvard,
+                nos Estados Unidos. <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Por isso que é muito mais comum ver uma fake news falando que o Brasil
+                vai ser invadido pela tropa chinesa comunista do que um meme de um gato dando bom dia", diz Nemer.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Felipe Nunes dos Santos, professor de comunicação política, eleições e
+                metodologia na Universidade Federal de Minas Gerais (UFMG), concorda. "Toda notícia falsa tem uma
+                direção clara. Ela recorre a um exagero, a um sensacionalismo, porque o objetivo é mexer principalmente
+                com a emoção das pessoas", diz.
+                Por isso, segundo o psicólogo Cristiano Nabuco, do Instituto de Psiquiatria da Universidade de São Paulo
+                (USP), é sempre bom pensar duas vezes quando temos contato com conteúdos que nos afetem muito.
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Falta de informações específicas</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Outro truque bastante utilizado nas fake news é a ausência de informações
+                específicas, como datas e locais em que os fatos narrados aconteceram. Desta forma, as mentiras ganham
+                um tom "universal", já que qualquer pessoa de qualquer lugar pode ler, se identificar e achar que aquilo
+                aconteceu ali, na sua cidade, hoje mesmo.<br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "É uma linguagem geralmente muito fácil de ser entendida, uma linguagem
+                simples, porque é um conteúdo que não pode trazer reflexão. As pessoas não podem ter oportunidade de
+                encontrar nos detalhes erros ou problemas que possam colocar em xeque", afirma Felipe Nunes dos Santos.
+                <br /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Uma mensagem que circula há muitas anos nas redes sociais e que envolve um
+                suposto golpe do "Whatsapp Gold" é um exemplo deste tipo de fake news. A mensagem é falsa, pois não
+                existe um "Whatsapp Gold", nem nenhum golpe parecido. Mas a mentira consegue se perpetuar porque não dá
+                detalhes sobre a data.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Uma das variações desta mensagem diz o seguinte: "Existe um vídeo que será
+                lançado amanhã no Whatsapp e se chama Gambarelli. Não abra!! O vírus vai para o seu telefone, sua conta
+                bancária é zerada e seu telefone bloqueado para sempre!". O texto não especifica a data, então o
+                "amanhã" é sempre o dia seguinte ao que a pessoa recebeu esta mensagem -- e, desta forma, a fake
+                consegue se manter sempre atual.
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Imitar aparência da mídia tradicional</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Os especialistas dizem que um truque muito comum é tentar imitar o formato
+                ou a aparência da mídia tradicional para que a mensagem falsa ganhe credibilidade. Desta forma, as
+                pessoas podem olhar o conteúdo sem muita atenção, acreditar que saiu em um site confiável e passar
+                adiante sem pensar duas vezes.
+                "Mimetizar as mídias tradicionais, imitando o formato da manchete, o formato da url e o nome que se dá
+                ao site que está abrigando essa fake news, é uma das estratégias usadas", diz Nina Santos, pesquisadora
+                do Instituto Nacional de Ciência e Tecnologia em Democracia Digital (INCT.DD) e da Université Paris II.
+                O Fato ou Fake já desmentiu diversas histórias que tentaram copiar o formato do g1 para parecer que a
+                mensagem havia sido publicada no site -- sendo que tudo não passava de uma montagem, como é possível ver
+                nos exemplos abaixo.
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Manipulação de imagens e 'deepfake'</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Vídeos, fotos e áudios com algum tipo de manipulação também são muito
+                comuns entre os conteúdos falsos que circulam na internet.
+                Uma categoria preocupante são as "deepfakes", um tipo de manipulação de imagem ultra-realista. É uma
+                técnica que permite mostrar o rosto de uma pessoa em fotos ou vídeos alterados com ajuda de inteligência
+                artificial. Para criar o material editado, basta ter um vídeo verdadeiro e modificá-lo com um dos vários
+                aplicativos criados com essa finalidade.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                'Deepfake' é um fenômeno bem preocupante e bem interessante. É uma
+                ferramenta pensada para construir um vídeo tão realista que você não possa distinguir [se é verdade ou
+                não]. Por exemplo, pegar um vídeo de uma pessoa cometendo algum crime terrível e colocar em cima desse
+                vídeo o seu rosto", diz Yurij Castelfranchi, professor da UFMG e especialista em desinformação.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Um dos usos mais preocupantes dessas ferramentas é a criação de vídeos
+                pornográficos com o rosto de outras pessoas. Em 2020, um relatório da empresa Sensity indicou que nudes
+                falsos de mais de 100 mil mulheres estavam sendo compartilhados na internet.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                As imagens adulteradas também são usadas na política. Em 2019, a
+                presidente da Câmara dos Deputados dos Estados Unidos, Nancy Pelosi, foi vítima de um deepfake que se
+                baseou um vídeo autêntico para sugerir que a representante democrata tinha dificuldades na fala em um
+                discurso.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                "Vai ser muito mais complicado, tanto para o cidadão quanto para os
+                jornalistas e os cientistas que estudam isso, tentar achar soluções e táticas para combater [a mentira].
+                Então a luta contra a desinformação vai ser cada vez mais difícil", diz.
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Uso de humor e ironias</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Muitas mensagens falsas também apelam para o uso de humor e sátiras para
+                espalhar mentiras ou para colocar em dúvida informações.
+                "Uma forma de fazer com que esse material fique palatável é o uso do humor. É comum que a desinformação
+                venha disfarçada de piadinhas, de formas mais simples e mais engraçada de tratar um determinado tema.
+                Isso pode acontecer com muita frequência", diz Nina Santos.
+            
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+                
+                <li><a href="https://g1.globo.com/fato-ou-fake/noticia/2022/03/28/fato-ou-fake-como-os-criadores-de-fake-news-tentam-enganar-voce.ghtml" target="_blank">G1</li>
+            
+            </ol>
+        
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

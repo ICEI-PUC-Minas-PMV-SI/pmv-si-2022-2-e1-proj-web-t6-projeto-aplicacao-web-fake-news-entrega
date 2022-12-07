@@ -1,0 +1,296 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="..\..\..\css\style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+    <!-- Estruturando o Cabeçalho -->
+    <header>
+
+        <!-- Corpo da Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+
+            <!-- Logo da Aplicação Web -->
+            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+
+            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
+
+                    </li>
+
+                    <li class="nav-item" id="usuario">
+
+                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">Como checar uma notícia?</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/fake-real.jpg">
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Plataformas de checagem de fatos podem ajudar a saber se uma notícia
+                compartilhada na web é falsa, ou seja, se trata de fake news. A prática conhecida pelo termo em inglês
+                fact checking é um método de verificação que analisa a confiabilidade das fontes apuradas em um texto
+                jornalístico —e tem crescido com a chegada das Eleições. Dependendo do levantamento, é possível
+                descobrir se as informações que circulam no WhatsApp, Facebook e Instagram são verdadeiras ou se trazem
+                algum nível de distorção.<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Antes incorporada à rotina dos jornais, a checagem de fatos perdeu
+                centralidade após mudanças na dinâmica das redações. Com a agilidade exigida pelo público conectado e a
+                redução das equipes de reportagem, a prática se tornou um nicho jornalístico. Hoje, várias agências,
+                sites ou iniciativas coletivas oferecem checagem de notícias compartilhadas. Conheça as principais
+                plataformas online que ajudam a descobrir se um link contém fake news.
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">1. Fato ou Fake</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O Fato ou Fake (g1.globo.com/fato-ou-fake) é uma iniciativa do Grupo Globo
+                para verificar conteúdo suspeito nas notícias mais compartilhadas da internet. A apuração é feita em
+                conjunto por jornalistas da CBN, Época, Extra, G1, TV Globo, GloboNews, Jornal O Globo e Valor
+                Econômico. Nas Eleições 2018, a plataforma é responsável também por checar falas de políticos dadas em
+                entrevistas, debates e sabatinas. Nesses casos, informações verificadas ganham selos “fato”, “fake” ou
+                “não é bem assim”. Denúncias podem ser feitas na página do Fato ou Fake no Facebook ou via WhatsApp no
+                número (21) 97305-9827. <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">2. Comprova</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O Comprova (projetocomprova.com.br) é um projeto de checagem de fatos que
+                conta com o trabalho em equipe de jornalistas de 24 diferentes veículos. O foco da plataforma são as
+                informações “enganosas, inventadas e deliberadamente falsas” compartilhadas durante as eleições
+                brasileiras em 2018. A ideia é checar declarações, especulações e rumores que ganham projeção na
+                internet. O trabalho envolve a apuração de textos, vídeos, imagens e gráficos.
+                A rede de parceiros do Comprova inclui veículos como Exame, Folha de S. Paulo, Nexo, Nova Escola,
+                Estadão, Uol e Veja. Usuários podem enviar denúncias via Facebook, Twitter ou pelo número (11)
+                97795-0022 no WhatsApp.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">3. Agência Pública – Truco</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O Truco é uma iniciativa de checagem de fatos da Agência Pública
+                (apublica.org), agência de jornalismo investigativo fundada por mulheres em 2011. A instituição não tem
+                fins lucrativos e traz reportagens sobre aspectos da administração pública, com foco na defesa dos
+                direitos humanos.
+                A agência escolhe frases para checagem a partir das declarações de figuras públicas e de boatos que
+                circulam sobre temas eleitorais. Após análise das fontes, informações são classificadas em sete
+                categorias diferentes: verdadeiro, sem contexto, discutível, exagerado, subestimado, impossível provar e
+                falso.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">4. Aos fatos</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                A Aos Fatos (aosfatos.org) é uma agência especializada na checagem de
+                fatos também membro da IFCN e contratada pelo Facebook. Os jornalistas identificam informações públicas
+                de acordo com a relevância e trabalham para verificar as fontes originais e classificar em sete
+                categorias: verdadeiro, impreciso, exagerado, distorcido, contraditório, insustentável e falso.
+                A agência aceita denúncias no Facebook e Twitter por meios de posts marcados com a hashtag
+                #vamosaosfatos. É possível também enviar matérias diretamente pelo site ou pelo WhatsApp, no telefone
+                (21) 99956-5882.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">5. Lupa</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                A agência Lupa, ligada ao jornal Folha de S. Paulo, foi a primeira do
+                Brasil dedicada estritamente ao que se chama de fact checking. Seus serviços estão voltados, em 2018,
+                especialmente à cobertura das eleições para governos estaduais e presidência. Sua metodologia resulta no
+                maior número de categorias entre as agências de checagem. São nove etiquetas que podem ser conferidas à
+                informação após a análise: “verdadeiro”, “verdadeiro, mas”, “ainda é cedo para dizer”, “exagerado”,
+                “contraditório”, “subestimado”, “insustentável”, “falso” e “de olho”.
+                A Lupa conta com uma seção de sugestões para envio de possíveis notícias falsas, além de um bot no
+                Messenger que ajuda a verificar se uma informação é verdadeira ou não.
+
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">6. Fake Check – Detector de Fake News</h2>
+            
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O Fake Check - Detector de Fake News (nilc-fakenews.herokuapp.com) é uma
+                plataforma criada por pesquisadores da Universidade de São Paulo (USP) e da Universidade Federal de São
+                Carlos (UFSCar) para checar notícias falsas. Ao contrário de agências jornalísticas, a iniciativa
+                envolve o uso de tecnologia para analisar características da escrita para determinar se um texto é
+                verdadeiro ou não. O sistema funciona na web e em um bot do WhatsApp no número (16) 98112-8986. <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">7. Boatos</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O Boatos (www.boatos.org) é um site criado pelo jornalista Edgard Matsuki
+                em 2013. Seu objetivo é publicar verificações de notícias populares na web. Inicialmente focada em
+                boatos com viés de curiosidade, a plataforma foi se tornando, aos poucos, também em um serviço voltado
+                para o que ficou conhecido como fake news.
+                O trabalho é realizado por uma equipe pequena de jornalistas: apenas quatro profissionais, incluindo o
+                próprio Edgar. As sugestões de notícias para checagem costumam surgir na área de comentários de posts do
+                site. Em geral, usuários enviam solicitações com links de algo suspeito para recomendar a verificação.
+                
+                <br />
+
+            </p>
+
+            <br />
+
+            <h2 id="subtitulo-blog">8. E-Farsas</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                
+                O E-Farsas (www.e-farsas.com) é o mais antigo serviço de verificação de
+                notícias falsas, lançado em 2001. Segundo o portal, a iniciativa surgiu “com a intenção de usar a
+                própria internet para desmistificar as histórias que nela circulam”. Muitos boatos que se popularizaram
+                em listas de e-mail e caixas de comentários na internet foram desvendados pelo E-Farsas muito antes do
+                fenômeno das fake news.
+                No entanto, apesar do sucesso, a plataforma se mantém até hoje com a equipe mais enxuta de todas as
+                opções da lista. Uma só pessoa, o ex-pedreiro e hoje Analista de Sistemas, Gilmar Lopes, é responsável
+                por investigar os fatos e publicar os posts com eventuais desmentidos. Sugestões de checagem são
+                enviadas por meio da área de contato do site.
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+
+                <li><a href="https://www.techtudo.com.br/noticias/2018/10/como-identificar-fake-news-oito-sites-para-checar-se-noticia-e-verdadeira.ghtml" target="_blank">TechTudo</li>
+            
+            </ol>
+                
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

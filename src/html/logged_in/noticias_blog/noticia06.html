@@ -1,0 +1,357 @@
+<!-- Identificador HTML5 para o Navegador-->
+<!DOCTYPE html>
+
+<!-- Linguagem do documento HTML elaborado-->
+<html lang="pt-br">
+
+<!-- Cabeçalho, contém as informações essenciais a interpretação do projeto em HTML -->
+<head>
+
+    <!-- Tag "meta" indicando qual o conjunto de caractéres deve ser levado em conta no "encoding" da página -->
+    <meta charset="utf-8-sig">
+
+    <!-- Tag "meta" relacionada ao layout se comportar de forma responsiva seguindo os padrões do Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Importando Bootstrap CSS and Javascript-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!-- Importando o arquivo de estilos CSS -->
+    <link rel="stylesheet" href="..\..\..\css\style.css">
+
+    <!-- Título do projeto em HTML-->
+    <title>NotSoFake - O que são as "Fake News"?</title>
+
+</head>
+
+<body>
+
+    <!-- Estruturando o Cabeçalho -->
+    <header>
+
+        <!-- Corpo da Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" id="navbar" style="border-bottom: 0.5px solid white">
+
+            <!-- Logo da Aplicação Web -->
+            <a class="navbar-brand" href="../../logged_in/in_Home.html" id="logo">Not so Fake</a>
+
+            <!-- Lista Suspensa em caso de redefinição da tela do Navegador-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <!-- Itens da Navbar -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <!-- Classe "active" e ID "nav-item-active" devem sempre estar presentes na página qual se está da aplicação -->
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_Home.html">Home</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_FeedRss.html">Feed de Notícias</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link" href="../../logged_in/in_MotorDeBusca.html">Pesquisa</a>
+
+                    </li>
+
+                    <li class="nav-item" id="nav-header-item">
+
+                        <a class="nav-link active" id="nav-item-active" href="../../logged_in/in_BlogFakeNews.html">O que são "Fake News"?</a>
+
+                    </li>
+
+                    <li class="nav-item" id="usuario">
+
+                        <a class="nav-link" href="../../logged_in/in_ControleUsuario.html">Usuário</a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="blog-noticia">
+
+        <div>
+
+            <h1 id="titulo-blog-noticia">Ensine seus amigos e família</h1>
+
+            <br>
+
+            <img class="img-fluid rounded" src="../../../img/ensine-amigos.jpg">
+
+            <p class="texto-blog-noticia">
+
+                </br> 
+            
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Seu primo acredita que as vacinas contra a Covid-19 têm microchips
+                controladores da mente. Seu amigo compartilha um artigo sobre por que supostamente a tecnologia 5G
+                prejudica a saúde de todos.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Nós até vemos desinformação sobre assuntos triviais”, disse Carl T.
+                Bergstrom, professor de biologia da Universidade de Washington, por e-mail. Bergstrom ministra um curso
+                que treina alunos sobre como avaliar o impacto das informações em suas vidas. “Todos os anos, uma
+                fotografia de um adorável frango-d’água se torna viral como a imagem de um ‘corvo bebê’. (Os corvos
+                recém-nascidos são cegos, sem penas e não se parecem em nada com isso)”.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Uma história imprecisa sobre animais selvagens pode ter repercussões
+                limitadas, mas a desinformação sobre questões sérias como a pandemia pode ser “profundamente
+                prejudicial”, afetando as motivações, crenças e tomadas de decisão das pessoas em relação à saúde,
+                política, meio ambiente e muito mais, disse Bergstrom, coautor de “Calling Bullsh*t: The Art of
+                Skepticism in a Data-Driven World” (Não seja enganado: a arte do ceticismo em um mundo movido a dados,
+                em tradução livre).
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Compartilhar desinformação e fake news sobre saúde pode levar à morte de
+                pessoas”, acrescentou Bergstrom. E se eu compartilhar desinformações sobre algo como a retirada do
+                Afeganistão? “Não é como compartilhar desinformações sobre vacinas, já que meus amigos e familiares que
+                as leem não estão de forma alguma envolvidos na tomada de decisões sobre a política externa dos Estados
+                Unidos”, explica.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O problema é exacerbado quando a família e os amigos compartilham
+                informações incorretas, porque tendemos a confiar que o que eles estão dizendo é verdade, sem fazer uma
+                verificação. Confrontar entes queridos sobre a falsidade de suas postagens não é fácil, mas se você
+                estiver pronto para falar, veja como lidar com isso.
+                
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Entenda as intenções</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Vale lembrar que as pessoas que compartilham informações incorretas podem
+                ter boas intenções. Algumas postagens falsas relacionadas à pandemia podem se enquadrar nesta categoria,
+                disse Bergstrom. “Quando ouvimos coisas sobre ameaças como esta, onde há muita incerteza, é muito
+                natural tentar obter informações e depois compartilhá-las com as pessoas de quem gostamos para manter
+                todos seguros”.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Identificar falsas alegações pode ser difícil, uma vez que a desinformação
+                geralmente contém elementos mesclados de verdade e mentira, disse Bergstrom.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Esse conteúdo, que as pessoas também podem compartilhar para confirmar sua
+                visão de mundo, às vezes é “visto como igualmente confiável para uma fonte confiável”, disse Sam Vaghar,
+                diretor executivo da Millennium Campus Network, uma rede global de alunos e ex-alunos que ajuda jovens a
+                abordar a desafios da humanidade.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Vaghar também faz parte da equipe por trás do perfil “Estou fazendo a
+                diferença” no Instagram, que trabalha com influenciadores de mídia social para fornecer a jovens adultos
+                informações verificadas sobre a pandemia. E, às vezes, os blogs de desinformação são projetados para se
+                parecer com sites de notícias.
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">Como abordar a situação</h2>
+
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Se alguém está compartilhando informações falsas de alto risco, “é muito
+                tentador querer sacudi-los pelos ombros”, disse Joshua Coleman, psicólogo e membro sênior do Conselho de
+                Famílias Contemporâneas, uma organização sem fins lucrativos que fornece pesquisas atuais sobre famílias
+                americanas. “Mas você realmente tem que resistir a essa tentação e manter a comunicação em um lugar mais
+                empático”.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Estar preparado com informações de fontes como agências de notícias
+                confiáveis, o Centro de Controle e Prevenção de Doenças dos Estados Unidos (CDC), a Organização Mundial
+                da Saúde (OMS) ou secretarias estaduais de Saúde pode ajudar a garantir que seu argumento seja mais
+                baseado em fatos ou na ciência do que no emocional ou opinativo, disse Vaghar.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Coleman aconselhou a evitar um “início difícil”, frase usada por John
+                Gottman, pesquisador de casamentos e divórcios e professor emérito de psicologia da Universidade de
+                Washington. Gottman diz que as conversas terminam da maneira como começam. “Se você inicia uma conversa
+                com hostilidade, raiva, desprezo ou crítica; provavelmente vai acabar assim”. Mas quanto mais você se
+                comunica com respeito, acrescentou ele, é mais provável que as pessoas baixem suas defesas e se
+                interessem pelo que temos a dizer.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Encontre maneiras de afirmar continuamente que você não está dizendo que a
+                pessoa é tola e que, se as apostas não fossem tão altas, você concordaria em discordar ou não diria
+                nada, sugere Coleman. Dizer aos entes queridos que você está apenas levantando o assunto porque
+                realmente se preocupa com eles pode comunicar que você está falando com uma mentalidade de amor e
+                preocupação.
+
+                <br />
+                
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Também esteja atento a como tem sido seu relacionamento com essa pessoa,
+                sugere Coleman. “Eu posso entrar em debates fervorosos com certos amigos, mas no cerne de tudo está a
+                amizade, e sabemos que estamos nos envolvendo de uma maneira quase furiosa porque ambos nos importamos
+                muito com o que estamos falando”.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Se você suspeitar que a pessoa que você está enfrentando vai reagir
+                defensivamente, pode dizer a ela: “Eu sei que muitos pensam que isso é verdade , então posso entender
+                como uma pessoa inteligente poderia concluir que está correto. Não sei o quanto você tem lido ou
+                investigado, e na verdade tenho passado muito tempo lendo ou pesquisando este assunto. Você se importa
+                se eu compartilhar com você o que eu tenho aprendido?”, sugeriu Coleman.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Para as pessoas que têm acesso a informações confiáveis, mas compartilham
+                as narrativas enganosas de que gostam, em vez de responder com uma lista de fatos, pode ser mais útil
+                envolver as crenças ou perspectivas subjacentes que tornam essas informações atraentes em primeiro
+                lugar, segundo Bergstrom.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                “Se alguém tem medo de tomar uma vacina contra a Covid-19 porque acredita
+                que as agências governamentais não são confiáveis, listar as estatísticas sobre a segurança da vacina
+                não o levará muito longe”.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Duas coisas que podem ajudar são focar em evidências de apoio fora do
+                sistema regulatório do país e compartilhar perspectivas de outros indivíduos que dividem as crenças da
+                pessoa sobre o governo, mas ainda defendem a vacinação contra a Covid-19.
+
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Essas abordagens não garantem que você seja persuasivo, pois as pessoas
+                podem se apegar às suas crenças fortemente arraigadas, mas são um bom começo.
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+            <h2 id="subtitulo-blog">A verdade sobre mensagens de texto e confronto público X privado</h2>
+            
+            <p class="texto-blog-noticia">
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Existem maneiras adequadas pelas quais as pessoas devem ter essas
+                conversas, e mensagens de texto não é uma delas, diz Coleman. Como a comunicação escrita carece de
+                entonação, pegue o telefone para que a pessoa possa ouvir qualquer preocupação genuína em sua voz.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Se você está preocupado em abordar uma postagem enganosa na rede social em
+                um comentário público ou uma mensagem privada, fazer as duas coisas pode ser útil.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Com um comentário público, você pode educar qualquer pessoa “vulnerável à
+                desinformação que está sendo perpetrada pela pessoa”, disse Coleman. Mas existe a possibilidade de que
+                as pessoas que postam pensem que você as está humilhando na frente de seus colegas.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Para evitar isso, envie também uma mensagem privada dizendo que você
+                espera que eles não se importem que você compartilhe publicamente suas ideias, dada a importância.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                E o que você deve fazer se confrontar alguém sobre informações incorretas,
+                e essa pessoa reconhecer o teor falso da publicação, mas não deletar a postagem? Infelizmente, essa
+                pessoa pode não se importar ou pode estar deixando o post como uma reação às críticas, disse Coleman.
+               
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                O especialista duvida que um estranho responderá a uma conversa
+                posteriormente. Mas se for um conhecido, pode valer a pena reiterar por que você acha que a pessoa não
+                deve deixar a publicação nas redes. E compartilhar qualquer interesse pessoal que você tenha nisso –
+                como mencionar sua experiência de estar doente com Covid-19 para alguém que compartilha informações
+                incorretas relacionadas à pandemia – “pode tornar isso mais convincente”, acrescentou ele.
+                
+                <br />
+
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Se a pessoa que você confronta é receptiva aos fatos e aos seus
+                pensamentos, isso poderia fomentar uma perspectiva humanitária, pois compartilhamos propósitos,
+                sacrifícios e destinos, disse Coleman.
+                
+                <br />
+
+            </p>
+            
+            <br />
+
+        </div>
+
+    </div>
+
+    <div class="rodape-blog">
+
+        <footer>
+
+            <h3 id="titulo-fonte">Fontes das informações:</h3>
+
+            <ol>
+
+                <li><a href="https://www.cnnbrasil.com.br/saude/como-incentivar-familia-e-amigos-a-parar-de-espalhar-fake-news-sobre-saude/" target="_blank">CNN Brasil</li>
+            </ol>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
