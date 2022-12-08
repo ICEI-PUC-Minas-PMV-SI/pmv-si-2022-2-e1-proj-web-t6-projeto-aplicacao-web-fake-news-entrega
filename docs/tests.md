@@ -63,29 +63,34 @@ Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobil
 ## Realizção dos testes:
 ### Teste 1 - Responsividade:
 
-- Resultado observado:
+https://user-images.githubusercontent.com/104596352/206589287-d3aa9cc0-3729-4cad-95d0-08ccdce35527.mp4
+
+- Resultado observado: A página se demonstra responsiva em todos os tamanhos de tela, desde dispositivos desktop até dispositivos mobile. O conteúdo é ajustado em toda a tela de forma a prezar pela maxima fluidez e funcionalidade da página como um todo.
 
 **Situação final:**
-- [ ] Aprovado
+- [x] Aprovado
 - [ ] Reprovado
 
 ### Teste 2 - Redirecionamento das notícias:
 
-- Resultado observado:
+https://user-images.githubusercontent.com/104596352/206589070-2c6b0d85-24da-41f6-9f24-d65a87066a6c.mp4
+
+- Resultado observado: Todas as notícias foram redirecionadas de forma efetiva para os seus sites de origem. Não houve nenhum problema de redirecionamento ou quebra de link. O tempo de resposta e redirecionamento está dentro do esperado. 
 
 **Situação final:**
-- [ ] Aprovado
+- [x] Aprovado
 - [ ] Reprovado
 
 ### Teste 3 - Tratamento das notícias:
 
-- Resultado observado:
+https://user-images.githubusercontent.com/104596352/206589965-55d2ffcb-ccac-4296-aacd-da70645c0eab.mp4
+
+- Resultado observado: As notícias consideradas incompatíveis com a estilização do conteúdo e da página estão sendo devidamente identificadas e decartadas, a fim de evitar qualquer problema de incompatibilidade que afete negativamente a apresentação do conteúdo das notícias na Página do Feed RSS.
 
 **Situação final:**
-- [ ] Aprovado
+- [x] Aprovado
 - [ ] Reprovado
 
----------------------------
 # TESTE - BLOG
 ## Testes a serem feitos:
 
