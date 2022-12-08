@@ -103,6 +103,36 @@ https://user-images.githubusercontent.com/103666432/205694990-3dfe6700-b812-414c
 - [x] Aprovado
 - [ ] Reprovado
 
+# TESTE - CADASTRO E LOGIN
+## Testes a serem feitos:
+
+1. Responsividade das páginas.
+2. Teste de funcionalidade do cadastro.
+
+## Realizção dos testes:
+### Teste 1 - Responsividade:
+
+https://user-images.githubusercontent.com/112586273/206575312-ecb865c2-a74a-4e87-995e-6e4ab8967006.mp4
+
+https://user-images.githubusercontent.com/112586273/206575331-2d9c897b-f042-4647-b945-6a82a62eeb09.mp4
+
+- Resultado observado: Foi evidenciado que as páginas estão responsivas, ou seja, a aplicação se adequa a tela do usuário de modo a não 
+comprometer a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 2 - Teste de funcionalidade:
+
+https://user-images.githubusercontent.com/112586273/206575130-8a572dcf-6296-4d9d-bd08-c19c3bd653ce.mp4
+
+- Resultado observado: Foi evidenciado que o cadastro está sendo feito de forma funcional.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
