@@ -51,6 +51,41 @@ forma uma navegação fluída e funcional.
 - [x] Aprovado
 - [ ] Reprovado
 
+# TESTE - FEED DE NOTÍCIAS RSS
+## Testes a serem feitos:
+
+1. Responsividade do Feed de Notícias RSS do site.
+2. Redirecionamento para as notícias em seus portais de origem.
+3. Verificação do tratamento e filtragem de notícias nos moldes da estilização do site.
+
+Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobile
+
+## Realizção dos testes:
+### Teste 1 - Responsividade:
+
+- Resultado observado:
+
+**Situação final:**
+- [ ] Aprovado
+- [ ] Reprovado
+
+### Teste 2 - Redirecionamento das notícias:
+
+- Resultado observado:
+
+**Situação final:**
+- [ ] Aprovado
+- [ ] Reprovado
+
+### Teste 3 - Tratamento das notícias:
+
+- Resultado observado:
+
+**Situação final:**
+- [ ] Aprovado
+- [ ] Reprovado
+
+---------------------------
 # TESTE - BLOG
 ## Testes a serem feitos:
 
