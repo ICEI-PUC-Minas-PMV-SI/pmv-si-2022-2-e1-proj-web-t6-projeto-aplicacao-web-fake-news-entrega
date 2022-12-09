@@ -173,6 +173,58 @@ https://user-images.githubusercontent.com/112586273/206575130-8a572dcf-6296-4d9d
 - [x] Aprovado
 - [ ] Reprovado
 
+# TESTE - PESQUISA
+## Testes a serem feitos:
+
+1. Responsividade da página de pesquisa do site.
+2. Autocompletar a pesquisa com resultados mais pesquisados.
+3. Filtro de busca apenas em sites conhecidos e de confiança.
+4. Redirecionamento de cada resultado para os respectivos sites ao clicar.
+
+Obs: Todos os testes devem ser realizados nos seguintes devices: Desktop e Mobile
+
+## Realização dos testes
+### Teste 1 - Responsividade:
+
+https://user-images.githubusercontent.com/69416757/206260147-ac2dcd8d-fa1e-4bc9-96fc-b9ca12c4afce.mp4
+
+Resultado observado:  Foi evidenciado que a página Pesquisa está responsiva, ou seja, a aplicação se adequa a tela do usuário de modo a não 
+comprometer a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+## Teste 2 - Autocompletar:
+
+https://user-images.githubusercontent.com/69416757/206264468-d10908db-df6f-4d52-8d1a-533aa3001f01.mp4
+
+Resultado observado: O componente de autocompletar a busca para a auxiliar a pesquisa está conforme o esperado e se adequa a tela do usuário.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+## Teste 3 - Filtro de busca:
+
+https://user-images.githubusercontent.com/69416757/206268408-70bd7b49-be1d-4f82-b7da-28254216fb17.mp4
+
+Resultado observado: Todos as buscas estão sendo feitas apanas em sites conhecidos e verificados.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+## Teste 4 - Redirecionamento:
+
+https://user-images.githubusercontent.com/69416757/206273444-f29fda58-a818-4784-a38d-db23501da9bc.mp4
+
+Resultado observado: Ao clicar em um dos resultados da pesquisa o usuário é redirecionado para o site da notícia.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
