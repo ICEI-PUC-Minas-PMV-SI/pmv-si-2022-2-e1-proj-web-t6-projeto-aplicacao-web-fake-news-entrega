@@ -167,7 +167,9 @@ comprometer a integridade das informações e do layout.
 
 https://user-images.githubusercontent.com/112586273/206575130-8a572dcf-6296-4d9d-bd08-c19c3bd653ce.mp4
 
-- Resultado observado: Foi evidenciado que o cadastro está sendo feito de forma funcional.
+https://user-images.githubusercontent.com/112586273/206879573-9fe369a4-0b50-48d0-990a-ae2505ebbb4a.mp4
+
+- Resultado observado: Foi evidenciado que o cadastro e o login estão sendo feitos de forma funcional.
 
 **Situação final:**
 - [x] Aprovado
