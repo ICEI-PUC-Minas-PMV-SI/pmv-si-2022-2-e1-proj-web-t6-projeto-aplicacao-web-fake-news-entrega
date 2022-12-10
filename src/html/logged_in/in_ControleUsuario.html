@@ -77,7 +77,7 @@
 
                         <li class="nav-item" id="usuario">
 
-                            <a class="nav-link active" id="nav-item-active" href="../logged_in/in_ControleUsuario.html">Usuário</a>
+                            <a class="nav-link" href="javascript:;" id="atualizacao">Usuário</a>
 
                         </li>
 
@@ -102,28 +102,29 @@
                 <h5 style="color:white;" align="left">Configurações do usuário:</h5>
                 
                 <form action="">
+                    <input id="operacao" type="hidden" value="A">
 
                     <div class="input-group mb-3">
 
-                        <input type="text" class="form-control" placeholder="Nome">
+                        <input type="text" class="form-control" id="nome_atualizacao" placeholder="Nome">
 
-                        <button class="btn btn-primary" type="submit">Salvar</button>
+                        <button class="btn btn-primary" id="btn_nome" >Salvar</button>
                     
                     </div>
 
                     <div class="input-group mb-3">
 
-                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="email" class="form-control" id="email_atualizacao" placeholder="Email">
 
-                        <button class="btn btn-primary" type="submit">Salvar</button>
+                        <button class="btn btn-primary" id="btn_email">Salvar</button>
 
                     </div>
 
                     <div class="input-group mb-3">
 
-                        <input type="password" class="form-control" placeholder="Senha">
+                        <input type="password" class="form-control" id="senha_atualizacao" placeholder="Senha">
 
-                        <button class="btn btn-primary" type="submit">Salvar</button>
+                        <button class="btn btn-primary" id="btn_senha">Salvar</button>
 
                     </div>
 
@@ -182,3 +183,6 @@
     </body>
     
 </html>
+
+<script src="../../js/bancoCadastros.js"></script>
+
