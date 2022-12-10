@@ -110,6 +110,15 @@ No arquivo Javascript, seguimos os seguintes passos:
 - Usuário direcionado ao portal que contém a nóticia:
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205678853-e842f8cd-01de-4899-8b74-325b7e67fddf.png">
 
+- Na página de cadastro, utilizamos o JQuery para armazenar em localStorage os dados obtidos atráves do formulário html. Os dados são armazenados em formato chave-valor para fácil manipulação.
+
+https://user-images.githubusercontent.com/112586273/206879281-aea51241-af9e-4ba0-a591-62d3e6cf10e1.mp4
+
+- Na página de controle de usuário é onde ocorre a maniplação dos dados obtidos na página do cadastro,, manipulação feita a partir do JQuery. Sendo possível alterar o nome, email e senha. Além disso, é possivel alterar a configuração relacionada a newslatter, como: frênqucia de envios e envio imediato.
+
+https://user-images.githubusercontent.com/112586273/206879302-49624a88-de3d-4dc5-aa1f-97d00682518b.mp4
+
+
 
 
 
