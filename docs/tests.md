@@ -173,6 +173,34 @@ https://user-images.githubusercontent.com/112586273/206575130-8a572dcf-6296-4d9d
 - [x] Aprovado
 - [ ] Reprovado
 
+# TESTE - USUÁRIO
+## Testes a serem feitos:
+
+1. Responsividade das páginas.
+2. Teste de funcionalidade do cadastro.
+
+## Realizção dos testes:
+### Teste 1 - Responsividade:
+
+https://user-images.githubusercontent.com/112586273/206879385-c842d769-a425-4057-8949-8534b66a1683.mp4
+
+- Resultado observado: Foi evidenciado que a página está responsivas, ou seja, a aplicação se adequa a tela do usuário de modo a não 
+comprometer a integridade das informações e do layout.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
+### Teste 2 - Teste de funcionalidade:
+
+https://user-images.githubusercontent.com/112586273/206879423-f976b8e1-bc3f-444d-b038-7b3e64f2886f.mp4
+
+- Resultado observado: Foi evidenciado que a manipulação dos dados está sendo feito de forma funcional.
+
+**Situação final:**
+- [x] Aprovado
+- [ ] Reprovado
+
 # TESTE - PESQUISA
 ## Testes a serem feitos:
 
