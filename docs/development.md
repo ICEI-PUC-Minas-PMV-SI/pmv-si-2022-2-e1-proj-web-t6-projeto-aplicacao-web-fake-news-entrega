@@ -8,38 +8,36 @@ cadastrado no site no momento de acesso.
 
 O código fonte que exemplifica como a programação foi feita consta na ["src"](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2022-2-e1-proj-web-t6-projeto-aplicacao-web-fake-news/tree/main/src) do projeto.
 
-O resultado em HTML e CSS das páginas constam em imagem abaixo, para a correção do código basta acessar o código na pasta fonte do projeto nos arquivos de 
+O resultado em HTML e CSS das páginas constam em imagem abaixo, para a verificação do código basta acessar o código na pasta fonte do projeto nos arquivos de 
 mesmo nome.
 
 ## in_Home.html e out_home.html
 
-A página "Home" tem como objetivo receber o usuário na aplicação web e redirecioná-lo pelo conteúdo através dos botões na aba inferior ou dos links na barra 
+A página "Home" tem como objetivo, receber o usuário na aplicação web e redirecioná-lo pelo conteúdo através dos botões na aba inferior ou dos links na barra 
 de navegação.
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202917808-37b57bd2-38bc-40cd-aec1-e75ea189e80b.png">
 
 ## in_FeedRSS.html e out_FeedRSS.html
 
-A página de "Feed de Notícias" tem como objetivo receber atualizações dinâmicamente de Feeds RSS de site de notícias e utilizá-los para preencher as 
+A página de "Feed de Notícias" tem como objetivo, receber atualizações dinâmicamente de Feeds RSS de site de notícias e utilizá-los para preencher as 
 informações do corpo da página. Como o preenchimento dinâmico será realizado através do JavaScript, a estrutura foi preenchida com valores Lorem Ipsum no 
 HTML estático.
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205665322-c5ff41be-09e1-483d-b879-045dfd3195de.png">
 
-
-
 ## in_MotorDeBusca.html e out_MotorDeBusca.html
 
-A página de "Pesquisa" tem como objetivo servir como motor de busca em sites de notícia verificados determinados pelo grupo e retornar uma lista de 
+A página de "Pesquisa" tem como objetivo, servir como motor de busca em sites de notícia verificados determinados pelo grupo e retornar uma lista de 
 resultados. Como o preenchimento dinâmico será realizado através do JavaScript, a estrutura foi preenchida com valores Lorem Ipsum no HTML estático.
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918353-638f7317-530a-4acc-bb75-f89e5b1988f8.png">
 
 ## in_BlogFakeNews.html, out_BlogFakeNews.html e noticiaXX.html
 
-A página de "O Que São "Fake News"?" tem como objetivo servir como Blog Estático de informações pré-definidas e pesquisas pelo grupo sobre o advento das 
-FakeNews na sociedade e, seu impacto como um todo, contendo curiosidades, informações, dicas etc. Diferentemente das outras páginas, essa possui uma 
-estrutura de usuário logado ou deslogado, que ao acessar algum tópico do blog, redireciona para um novo documento HTML (**noticiaXX**) com as informações 
+A página de "O Que São "Fake News"?" tem como objetivo servir como Blog Estático de informações pré-definidas e pesquisas realizadas pelo grupo sobre o 
+advento das FakeNews na sociedade e, seu impacto como um todo, contendo curiosidades, informações, dicas etc. Diferentemente das outras páginas, essa possui 
+uma estrutura de usuário logado ou deslogado, que ao acessar algum tópico do blog, redireciona para um novo documento HTML (**noticiaXX**) com as informações 
 referentes ao conteúdo do Blog. Tal página se baseará totalmente no HTML e CSS estáticos, sem dinamicidades, portanto já está funcionando.
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202918715-e6eca139-939a-40a3-be52-6e8521fbf41e.png">
@@ -85,7 +83,10 @@ Exemplo do motor de busca em funcionamento:
 
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/202927244-dedafae8-3172-416c-b53c-940553c3ca08.png">
 
-- No Feed de notícias, utilizamos o RSS (Really Simple Syndication) que é um formato de distribuição de informações em tempo real pela internet, ou seja, o usuário tem acesso a várias notícias de diferentes fontes (fontes pré-estabelecidas) em um mesmo ambiente de maneira automática. O arquivo RSS é recebido no formato XML, que se caracteriza por ser uma linguagem de marcação com regras específicas de modo que ele seja facilmente lido por humanos e por máquinas. No Feed utilizamos três fontes de notícias e, portanto, três arquivos RSS, são eles: El pais, G1 e R7.
+- No Feed de notícias, utilizamos o RSS (Really Simple Syndication) que é um formato de distribuição de informações em tempo real pela internet, ou seja, o 
+usuário tem acesso a várias notícias de diferentes fontes (fontes pré-estabelecidas) em um mesmo ambiente de maneira automática. O arquivo RSS é recebido no 
+formato XML, que se caracteriza por ser uma linguagem de marcação com regras específicas de modo que ele seja facilmente lido por humanos e por máquinas. No 
+Feed utilizamos três fontes de notícias e, portanto, três arquivos RSS, são eles: El pais, G1 e R7.
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/103666432/205677271-a7069989-0b66-4889-b1ff-16cbe18e67a1.png">
 
@@ -110,17 +111,18 @@ No arquivo Javascript, seguimos os seguintes passos:
 - Usuário direcionado ao portal que contém a nóticia:
 <img width="925" alt="image" src="https://user-images.githubusercontent.com/103666432/205678853-e842f8cd-01de-4899-8b74-325b7e67fddf.png">
 
-- Na página de cadastro, utilizamos o JQuery para armazenar em localStorage os dados obtidos atráves do formulário html. Os dados são armazenados em formato chave-valor.
+- Na página de cadastro, utilizamos o JQuery para armazenar em localStorage os dados obtidos atráves do formulário html. Os dados são armazenados em formato 
+chave-valor.
 
-https://user-images.githubusercontent.com/112586273/206879281-aea51241-af9e-4ba0-a591-62d3e6cf10e1.mp4
+<img width="605" alt="image" src="https://user-images.githubusercontent.com/110254863/206906646-31d71dae-6e27-496c-8908-8fd38c7d30e4.png">
 
-- Na página de controle de usuário é onde ocorre a maniplação dos dados obtidos na página do cadastro, manipulação feita a partir do JQuery. Sendo possível alterar o nome, email e senha. Além disso, é possivel alterar a configuração relacionada a newslatter, como: frênquencia de envios e envio imediato.
+- Na página de acesso, a verificação de credenciais foi feita através da conferência de valores alocados no localStorage criado no JQuery
 
-https://user-images.githubusercontent.com/112586273/206879302-49624a88-de3d-4dc5-aa1f-97d00682518b.mp4
+<img width="603" alt="image" src="https://user-images.githubusercontent.com/110254863/206907087-bc40183f-b2a5-43f8-ade9-3d3ce1a0895d.png">
 
+- Na página de controle de usuário é onde ocorre a maniplação dos dados obtidos na página do cadastro, manipulação feita a partir do JQuery. Sendo possível 
+alterar o nome, email e senha. Além disso, é possivel alterar a configuração relacionada a newsletter, como: frênquencia de envios e envio imediato. A demonstração 
+abaixo conta com a alteração do nome, mas a alteração de todos os demais campos ocorre da mesma forma, é indicado o valor de referência que se deseja alterar, a 
+altreação é feita através do JQuery e um pop up indica a alteração.
 
-
-
-
-
-
+<img width="605" alt="image" src="https://user-images.githubusercontent.com/110254863/206907164-43aa65ca-5f6f-4342-b8e1-476a367e6d22.png">
