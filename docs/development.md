@@ -114,15 +114,22 @@ No arquivo Javascript, seguimos os seguintes passos:
 - Na página de cadastro, utilizamos o JQuery para armazenar em localStorage os dados obtidos atráves do formulário html. Os dados são armazenados em formato 
 chave-valor.
 
-<img width="605" alt="image" src="https://user-images.githubusercontent.com/110254863/206906646-31d71dae-6e27-496c-8908-8fd38c7d30e4.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/206906646-31d71dae-6e27-496c-8908-8fd38c7d30e4.png">
 
-- Na página de acesso, a verificação de credenciais foi feita através da conferência de valores alocados no localStorage criado no JQuery
+- Na página de acesso, a verificação de credenciais foi feita através da conferência de valores alocados no localStorage criado no JQuery.
 
-<img width="603" alt="image" src="https://user-images.githubusercontent.com/110254863/206907087-bc40183f-b2a5-43f8-ade9-3d3ce1a0895d.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/206907087-bc40183f-b2a5-43f8-ade9-3d3ce1a0895d.png">
 
 - Na página de controle de usuário é onde ocorre a maniplação dos dados obtidos na página do cadastro, manipulação feita a partir do JQuery. Sendo possível 
 alterar o nome, email e senha. Além disso, é possivel alterar a configuração relacionada a newsletter, como: frênquencia de envios e envio imediato. A demonstração 
 abaixo conta com a alteração do nome, mas a alteração de todos os demais campos ocorre da mesma forma, é indicado o valor de referência que se deseja alterar, a 
 altreação é feita através do JQuery e um pop up indica a alteração.
 
-<img width="605" alt="image" src="https://user-images.githubusercontent.com/110254863/206907164-43aa65ca-5f6f-4342-b8e1-476a367e6d22.png">
+<img width="925" alt="image" src="https://user-images.githubusercontent.com/110254863/206907164-43aa65ca-5f6f-4342-b8e1-476a367e6d22.png">
+
+## Observação quanto a funcionalidade de Newsletter:
+
+**Quanto a funcionalidade do envio de Newsletters para o usuário, por se tratar de um projeto inteiramente em Front-End, a realização de tal feito sem um banco de 
+dados configurado (motivo do salvamento do cadastro em localStorage) e, sem uma API para realização se provou muito complexa devido o tempo hábil em questão. Logo, ao 
+questionar a Professora Simone sobre como prosseguir, foi aconselhado que deixássemos de lado tal requisito pois já estávamos entregando todos os outros e, que 
+constatar que não seria possível a realização de algum requisito, fazia parte do processo.**
