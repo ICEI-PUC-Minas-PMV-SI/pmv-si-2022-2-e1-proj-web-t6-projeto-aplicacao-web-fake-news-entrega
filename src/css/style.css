@@ -412,6 +412,7 @@ a.link-grid-blog:hover {
   transition: 300ms ease-in-out;
 
 }
+
 .imagem-grid-blog:hover {
 
   transform: scale(1.15);
@@ -789,6 +790,7 @@ a.link-grid-blog:hover {
     align-items: center;
     align-content: center;
     justify-content: center;
+    
 }
 
 #input_search-MB {
@@ -807,6 +809,7 @@ a.link-grid-blog:hover {
     height: 40px;
     border-radius: 10px;
     border: none;
+    
 }
 
 #button-MB {
@@ -858,6 +861,7 @@ a.link-grid-blog:hover {
     color: white;
 
 }
+
 @media only screen and (max-width: 768px) {
 
     #nav-header-item a:hover {
@@ -1048,6 +1052,7 @@ a.link-grid-blog:hover {
         font-size: 20px !important;
         
     }
+    
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1287,6 +1292,7 @@ a.link-grid-blog:hover {
         font-size: 20px !important;
         
     }
+    
 }
 
 /* Style do Grid dispositivos com mais de 200px e menos de 290px*/
